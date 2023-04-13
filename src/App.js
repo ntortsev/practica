@@ -84,7 +84,7 @@ function App() {
     <div className="container">
       <Routes>
         <Route
-          path="/"
+          path="/practica/"
           element={
             <Main
               showModal={showModal}
@@ -94,7 +94,7 @@ function App() {
           }
         />
         <Route
-          path="/:id"
+          path="/practica/:id"
           element={<ProductPage openModal={openModal} products={products} />}
         />
       </Routes>

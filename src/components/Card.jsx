@@ -7,7 +7,7 @@ function Card({ product }) {
       <h3>{product.name}</h3>
       <img width={150} src={product.img} alt="" />
       <h2>{product.price} руб</h2>
-      <Link to={`/${product.id}`}>
+      <Link to={`/practica/${product.id}`}>
         <button>Заказать</button>
       </Link>
     </div>

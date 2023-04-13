@@ -14,7 +14,7 @@ function ProductPage({ products, openModal }) {
       <img src={item?.img} alt="" />
       <p>{item?.descr}</p>
       <h2>{item?.price} руб</h2>
-      <Link to="/">
+      <Link to="/practica/">
         <button onClick={openModal}>Оформить заказ</button>
       </Link>
     </div>
